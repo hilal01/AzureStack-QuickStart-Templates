@@ -38,7 +38,7 @@ echo "re-update the system"
 retrycmd_if_failure sudo apt-get -y update
 
 echo "install docker with version 17.03.0"
-retrycmd_if_failure sudo apt-get -y install docker-ce=18.03.0~ce-0~ubuntu
+retrycmd_if_failure sudo apt-get -y install docker-ce=17.03.0~ce-0~ubuntu
 
 echo "Install xfce4"
 retrycmd_if_failure sudo apt-get -y update
