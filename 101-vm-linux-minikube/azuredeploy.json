@@ -23,7 +23,7 @@
 
       },
 
-      "defaultValue": "https://raw.githubusercontent.com/vpatelsj/AzureStack-QuickStart-Templates/master/101-vm-linux-minikube/"
+      "defaultValue": "https://raw.githubusercontent.com/hilal01/AzureStack-QuickStart-Templates/master/101-vm-linux-minikube/"
 
     },
     "imagePublisher": {
