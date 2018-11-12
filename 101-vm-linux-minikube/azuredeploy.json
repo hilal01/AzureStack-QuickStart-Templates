@@ -63,7 +63,7 @@
     },
     "dockerLink": {
       "type": "string",
-      "defaultValue": "https://download.docker.com/linux/ubuntu",
+      "defaultValue": "https://apt.dockerproject.org/repo/pool/main/d/docker-engine/",
       "metadata": {
         "description": "Docker installation download link"
       }
