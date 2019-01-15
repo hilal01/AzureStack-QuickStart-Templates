@@ -47,7 +47,9 @@ echo "Install xfce4"
 retrycmd_if_failure sudo apt-get -y install xfce4
 
 echo "Install xrdp"
-retrycmd_if_failure sudo apt-get -y install xrdp
+# retrycmd_if_failure sudo apt-get -y install xrdp
+retrycmd_if_failure sudo apt-get -y install xrdp=0.6.1-2
+sudo apt-mark hold xrdp
 
 echo "Configure xsession"
 retrycmd_if_failure sudo echo xfce4-session >~/.xsession
